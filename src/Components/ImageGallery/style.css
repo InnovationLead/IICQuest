@@ -1,0 +1,21 @@
+.image-gallery {
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.image-gallery-slide img {
+    width: 100%;
+    height: auto;
+    max-height: 80vh;
+    object-fit: cover;
+    overflow: hidden;
+    object-position: center center;
+}
+
+.fullscreen .image-gallery-slide img {
+    max-height: 100vh;
+    width: 100vw;
+}
